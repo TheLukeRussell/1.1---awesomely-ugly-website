@@ -1,32 +1,65 @@
 header {
   text-align: center;
   font-family: monospace;
+  font-size: 30px;
 }
+
 body {
-  background-color: #C0C0C0;
+  background-color: #cfcfcf;
+  background-image: url("https://www.transparenttextures.com/patterns/black-mamba.png");
 }
+
 .quote {
   text-align: center;
-  font-size: 80%;
+  font-size: 100%;
   font-family: cursive;
 }
+
 .bartender {
   text-align: center;
   display: block;
   margin-left: auto;
   margin-right: auto;
-  margin-bottom: 190px;
+  margin-bottom: 120px;
   height: 600px;
   width: 60%;
-  border-style: groove;
-  border-color: brown;
+  border-style: ridge;
+  border-color: white;
+  margin-top: 50px;
 }
+
 h3 {
   font-family: monospace;
   text-align: center;
   font-size: 30px;
 }
+
 ul {
+  font-size: 20px;
+  border-style: dashed;
+  border-radius: 100%;
   text-align: center;
   line-height: 40px;
+  font-family: sans-serif;
+  list-style-position: inherit;
+  margin-left: 500px;
+  margin-right: 500px;
+  margin-top: 100px;
+  margin-bottom: auto;
+  list-style: none;
+}
+
+h3 {
+  color: black;
+  transform: scale(1.5);
+  transition: 1.5s ease-in-out;
+  margin-bottom: auto;
+  padding-bottom: -500px;
+}
+.Star1 {
+margin-top: 50px;
+height: auto;
+width: auto;
+text-align: center;
+display: inline;
 }
